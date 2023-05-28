@@ -62,4 +62,8 @@ export class BrandsService {
   remove(id: string ) {
     this.brands = this.brands.filter( brand => brand.id !== id );
   }
+
+  fillBrandWithSeedDara( brands: Brand[] ){
+    this.brands = brands;
+  }
 }

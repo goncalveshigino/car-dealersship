@@ -67,4 +67,8 @@ export class CarsService {
         this.cars = this.cars.filter( car => car.id !== id );
         return;
     }
+
+    fillCarsWithSeedDara( cars: Car[] ){
+        this.cars = cars;
+    }
 }
