@@ -10,23 +10,11 @@ export class CarsService {
 
     private cars: Car[] = [
 
-        {
-            id: uuid(), 
-            brand: 'Toyota', 
-            model: 'Corola'
-        }, 
-
-        {
-            id: uuid(), 
-            brand: 'Honda', 
-            model: 'Civic'
-        }, 
-
-        {
-            id: uuid(), 
-            brand: 'Jeep', 
-            model: 'Cherokee'
-        }
+        // {
+        //     id: uuid(), 
+        //     brand: 'Toyota', 
+        //     model: 'Corola'
+        // }, 
 
     ];
 
